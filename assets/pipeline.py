@@ -14,7 +14,7 @@ except subprocess.CalledProcessError as e:
     k = input("press enter to exit")
     sys.exit(1)
 subprocess.run("git add -A")
-subprocess.run("git commit -m \"{commitMessage}\"", shell=True)
+subprocess.run(f"git commit -m \"{commitMessage}\"", shell=True)
 subprocess.run("git push origin", shell=True)
 subprocess.run("npm run start", shell=True)
 
