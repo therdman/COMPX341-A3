@@ -1,3 +1,4 @@
+//Name: Taylor Herdman 	 ID: 1539767
 //
 // In production, we register a service worker to serve assets from local cache.
 

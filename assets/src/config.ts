@@ -1,3 +1,4 @@
+//Name: Taylor Herdman 	 ID: 1539767
 //
 export default {
   apiGateway: {
